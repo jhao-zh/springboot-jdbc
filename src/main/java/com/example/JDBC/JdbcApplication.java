@@ -37,7 +37,7 @@ public class JdbcApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("start >>>>>>>>>>>>>>");
-		Random random = new Random();
+		Random random = new Random(); 
 		sql(random.nextInt(2));
 	}
 }
